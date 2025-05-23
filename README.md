@@ -39,7 +39,7 @@ Ensure the following are installed:
 2. **Edit Config**:
 
    * `FRIL_CO_URL`: Replace with the full URL of the Frill.co feature.
-   * `NUMBER_OF_VOTES`: Set desired vote count.
+   * `NUMBER_OF_VOTES`: Set desired vote count, don't set this to 30+ votes in a few minutes, system might automatically disable voting.
    * `VOTE_BUTTON_SELECTOR`: Defaults to `button[aria-label='Vote for this Idea']`.
    * *(Optional)* Uncomment these lines for headless mode:
 
