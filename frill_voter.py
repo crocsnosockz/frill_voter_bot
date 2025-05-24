@@ -29,8 +29,6 @@ def automate_frill_voting(url, num_votes=10):
             # 1. Set up Chrome options for incognito mode and mobile window size
             chrome_options = Options()
             chrome_options.add_argument("--incognito")
-            chrome_options.add_argument("--headless")
-            chrome_options.add_argument("--disable-gpu")
 
             # Set window size to a common mobile resolution (e.g., iPhone X)
             # This should trigger the mobile layout of the Frill.co page.
